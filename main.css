@@ -1,0 +1,362 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+body > header {
+    background-color:black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#menu-de-navegacao {
+    margin-right: 20px;
+}
+
+#menu-de-navegacao ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu-de-navegacao li {
+    margin-right: 20px;
+}
+
+#menu-de-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#menu-de-navegacao li a:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #333;
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+}
+    50% {
+        transform: scale(1.1);
+}
+    100% {
+        transform: scale(1);
+    }
+}
+
+#sports h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#sports {
+    background-color: rgb(88, 143, 7);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sports article {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-bottom: 20px;
+}
+
+#sports article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 70px;
+}
+
+#sports article a {
+    font-size: 10x;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(16, 103, 153, 0.1);
+    transition: background-color 0.3s;
+}
+
+#sports article a:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px rbga(0, 0, 0, 0.3);
+}
+
+#sports article a:active {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#futebol {
+    grid-column: 1;
+}
+
+#futebol-americano {
+    grid-column: 2;
+}
+
+#basquete {
+    grid-column: 3;
+}
+
+#nba {
+    grid-column: 2;
+}
+
+time {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    background-color: #f7f7f7;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+article img {
+    width: 550px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#economy h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#economy {
+    background-color: #455A64;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#economy article {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-bottom: 20px;
+}
+
+#economy article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 70px;
+}
+
+#economy article a {
+    font-size: 10x;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(16, 103, 153, 0.1);
+    transition: background-color 0.3s;
+}
+
+#economy article a:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px rbga(0, 0, 0, 0.3);
+}
+
+#economy article a:active {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#dolar {
+    grid-column: 1;
+}
+
+#euro {
+    grid-column: 2;
+}
+
+#petroleo {
+    grid-column: 3;
+}
+
+#entertainment h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#entertainment {
+    background-color: #660066;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#entertainment article {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-bottom: 20px;
+}
+
+#entertainment article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 70px;
+}
+
+#entertainment article a {
+    font-size: 10x;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(16, 103, 153, 0.1);
+    transition: background-color 0.3s;
+}
+
+#entertainment article a:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px rbga(0, 0, 0, 0.3);
+}
+
+#entertainment article a:active {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#cinema {
+    grid-column: 1;
+}
+
+#star-wars {
+    grid-column: 2;
+}
+
+#batman {
+    grid-column: 3;
+}
+
+#tecnologyc h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#tecnologyc {
+    background-color: #1e2429;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tecnologyc article {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    border-bottom: 20px;
+}
+
+#tecnologyc article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 70px;
+}
+
+#tecnologyc article a {
+    font-size: 10x;
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(16, 103, 153, 0.1);
+    transition: background-color 0.3s;
+}
+
+#tecnologyc article a:hover{
+    background-color: #e0e0e0;
+    box-shadow: 0 0 20px rbga(0, 0, 0, 0.3);
+}
+
+#tecnologyc article a:active {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#tecnologia5g {
+    grid-column: 1;
+}
+
+#iphone16 {
+    grid-column: 2;
+}
+
+#samsungs23ultra {
+    grid-column: 3;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 1280px) {
+    
+}
